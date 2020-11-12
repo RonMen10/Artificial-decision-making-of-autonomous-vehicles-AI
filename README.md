@@ -7,7 +7,10 @@ This project is based on self driven vehicles facing roundabout entering situati
 
 The training is intended to reduce as well as decentralize the rule book generated, this way each vehicle has its own small sized rule book. In order to do this and at the same time to improve the learning, vehicles are allowed to exchange information when they are outside the roundabout using an exchange algorithm developed in this project, called Cluster of Knowledge COK.
 
-![](images/Simulation.png)![](images/raduis.png) 
+<p align = "center">
+  <img src= "https://github.com/RonMen10/Artificial-decision-making-of-autonomous-vehicles-AI/blob/main/images/Simulation.png" width="200" height="530"/ >
+  <img src= "https://github.com/RonMen10/Artificial-decision-making-of-autonomous-vehicles-AI/blob/main/images/raduis.png" width="200" height="180"/ >
+
 
 **Cluster of knowledge**
 
@@ -22,8 +25,9 @@ In order to establish this concept, it is important to mention what is a center 
 However, for the center based COK this concept has been applied in reverse, aiming to expand the cluster size by including into it the farthest elements from the cluster center. This way the observations that the cluster includes are as dissimilar as possible, and therefore the knowledge of the corresponding individual from the featured space is wide.
 
 This can be seen in the following picture, where the green triangles are the elements already belonging to the cluster, and the orange squares are the elements that can be included. As it can be seen in the mentioned figure, the squares whose distance to the center is greater are selected to become part of the cluster.
+<p align = "center">
+  <img src= "https://github.com/RonMen10/Artificial-decision-making-of-autonomous-vehicles-AI/blob/main/images/center_based_clustering.png" width="200" height="200"/ >
 
-![](images/center_based_clustering.png)
 
 **Gap based**
 
@@ -33,4 +37,6 @@ In order to achieve its purpose, this version of COK instead of looking at the c
 
 Once the biggest gap and the two cluster elements involved are identified, the middle point between the tow is identified; this is done, so that in the next step the closest available element to this point can be found and included to the cluster as it can be seen in the picture below.
 
-![](images/GAP_based_clustering.png)
+<p align = "center">
+  <img src= "https://github.com/RonMen10/Artificial-decision-making-of-autonomous-vehicles-AI/blob/main/images/GAP_based_clustering.png" width="200" height="200"/ >
+
