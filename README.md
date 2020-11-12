@@ -38,5 +38,5 @@ In order to achieve its purpose, this version of COK instead of looking at the c
 Once the biggest gap and the two cluster elements involved are identified, the middle point between the tow is identified; this is done, so that in the next step the closest available element to this point can be found and included to the cluster as it can be seen in the picture below.
 
 <p align = "center">
-  <img src= "https://github.com/RonMen10/Artificial-decision-making-of-autonomous-vehicles-AI/blob/main/images/GAP_based_clustering.png" width="200" height="200"/ >
+  <img src= "https://github.com/RonMen10/Artificial-decision-making-of-autonomous-vehicles-AI/blob/main/images/GAP_based_clustering.png" width="200" height="180"/ >
 
